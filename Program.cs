@@ -18,7 +18,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", () =>
 {
-    return 1;
+    return 2;
 })
 .WithName("Hello")
 .WithOpenApi();
