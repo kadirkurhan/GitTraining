@@ -1,0 +1,6 @@
+@GitTraining_HostAddress = http://localhost:5211
+
+GET {{GitTraining_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
